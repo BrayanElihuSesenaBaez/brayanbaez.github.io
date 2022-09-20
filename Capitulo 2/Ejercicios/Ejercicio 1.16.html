@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Ejercicio 16</title>
+    </head>
+
+    <body>
+        <h1>Formulario de retroalimentacion</h1>
+    
+        <form method="post" action="http://www.deitel.com">
+
+            <input type="hidden" name="destinatario"
+                value="deitel@deitel.com">
+            <input type="hidden" name="asunto"
+                value="Formulario de retroalimentación">
+            <input type="hidden" name="redirigir"
+                value="principal.html">
+
+            <p><label>Nombre:
+                <input name="nombre" type="text" size="25">
+            </label></p>
+            <p><label>Email:
+                <input name="email" type="email">
+            </label></p>
+
+            <p><label>Comentarios: <br>
+                <textarea name="comentarios"cols="30" rows="10">Escriba aquí que te gusta del campus</textarea>
+            </label></p>
+
+            <p>
+                <strong>Cosas que le gustaron del campus</strong>
+
+                <label>Campus
+                    <input name="cosasgustaron" type="checkbox"
+                    value="campus"></label>
+                <label>Estudiantes
+                    <input name="cosasgustaron" type="checkbox"
+                    value="estudiantes"></label>
+                <label>Ubicación
+                    <input name="cosasgustaron" type="checkbox"
+                    value="Ubicación"></label>
+                <label>Ambiente
+                    <input name="cosasgustaron" type="checkbox"
+                    value="Ambiente"></label>
+                <label>Dormitorios
+                    <input name="cosasgustaron" type="checkbox"
+                    value="dormitorios"></label>
+                <label>Deportes
+                    <input name="cosasgustaron" type="checkbox"
+                    value="deportes"></label>
+            </p>
+
+            <p>
+                <strong>Cómo supiste de la universidad:</strong>
+
+                <label> Amigos
+                    <input name="comouniversidad" type="radio"
+                    value="motor de busqueda" checked></label>
+                <label> Televisión
+                    <input name="comouniversidad" type="radio"
+                    value="vinculo" checked></label>
+                <label> Internet
+                    <input name="comouniversidad" type="radio"
+                    value="deitel.com" checked></label>
+                <label>
+                    <input name="comouniversidad" type="text"
+                    value="Otro" checked></label>
+            </p>
+
+            <p><label>Comentarios: <br>
+                <textarea name="comentarios"cols="30" rows="10">Escriba aquí sus comentarios</textarea>
+            </label></p>
+            
+            <p>
+                <input type="submit" value="Enviar">
+                <input type="reset" value="Borrar">
+            </p>
+        </form>
+    </body>
+</html>

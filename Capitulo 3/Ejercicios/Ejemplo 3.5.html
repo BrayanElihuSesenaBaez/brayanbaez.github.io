@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Ejercicio 3.5</title>
+    </head>
+
+    <body>
+        <h1>Escriba un elemento (o elementos) de HTML5 para realizar cada una de las siguientes tareas</h1>
+
+        <p>
+            a) Se pidió a los estudiantes que clasifiquen los alimentos en la cafetería, en una escala del 1 al 10. 
+            Use un elemento meter con texto a su izquierda y a su derecha para indicar que la calificación promedio fue 7 de 10. <br>
+            < p > 1 < meter min = "1" max = "10" value = "7" >< /meter> 10 < /p>
+        </p>
+
+        <p>
+            b) Cree un elemento details que muestre el texto "<strong>Resultados de la encuesta</strong>" en el elemento summary, 
+            deberá aparecer un párrafo que explique sobre la encuesta. <br>
+            < details > < summary > Resultados de la encuesta < /summary> < p > La calificación que se le dio a la cafeteria
+            en la escala del 1 al 10. Fue 7. < /p > < /details >
+        </p>
+
+        <p>
+            c) Cree un elemento input text para el primer nombre. El elemento deberá recibir el enfoque de manera automática al 
+            momento de desplegar el formulario en un navegador. <br>
+            < p > < label > Nombre: < input type = "text" autofocus /> < /label > < /p >
+        </p>
+
+        <p>
+            d) Modifique la parte (c) de modo que se elimine el elemento label y use texto en un elemento placeholder
+            en el elemento input. <br>
+            < p > < input type = "text" placeholder = "Nombre" autofocus /> < /p >
+        </p>
+
+        <p>
+            e) Use un elemento datalist para proveer una lista autocomplete para cincos estados. <br>
+            < input type = "text" id = "estado" autocomplete = "on" list = "listadeEstados" /> <br>
+            < datalist > <br>
+                < option value = "Veracruz" > <br>
+                < option value = "Puebla" > <br>
+                < option value = "Chihuahua" > <br>
+                < option value = "Oaxaca" > <br>
+                < option value = "Chiapas" > <br>
+            < /details > 
+        </p>
+
+        <p>
+            f) Cree un elemento input range que permita al usuario seleccionar un número del 1 al 100. <br>
+            < label > Range: 1 < input type = "range" min = "1" max = "20" value = "10" /> 100 < /label >
+        </p>
+
+        <p>
+            g) Especifique que no debe permitirse el atributo autocomplete en un formulario. Muestre sólo
+            la etiqueta de apaertura del formulario. <br>
+            < form action = "post" autocomplete = "off" >
+        </p>
+
+        <p>
+            h) Use un elemento mark para resaltar el segundo enunciado del siguiente párrafo: < p > Se pidió
+            a los estudiantes que calificaran los alimentos en la cafetería. En una escala del 1 al 10. El resultado promedio fue 7. < /p > <br>    
+            < p >Se pidió
+                a los estudiantes que calificaran los alimentos en la cafetería.< mark > En una escala del 1 al 10. El resultado promedio fue 7.< /mark >< /p > 
+        </p>
+    </body>
+</html>
+
+

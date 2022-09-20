@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Ejercicio 3.5</title>
+    </head>
+
+    <body>
+        <h1>Creación de un formulario autocomplete con un elemento datalist</h1>
+
+        <form method="post" autocomplete="on">
+            <p><label for="listaDias">Días
+                <input type="text" id="listaDias" placeholder="Seleccione un día" list="días" />
+
+                <datalist id="días">
+                    <option value="Lunes">Lunes</option>
+                    <option value="Martes">Martes</option>
+                    <option value="Miercoles">Miercoles</option>
+                    <option value="Jueves">Jueves</option>
+                    <option value="Viernes">Viernes</option>
+                    <option value="Sabado">Sabado</option>
+                    <option value="Domingo">Domingo</option>
+                </datalist>
+            </label></p>
+            <p>
+                <input type="submit">
+            </p>
+        </form>
+        
+    </body>
+</html>
